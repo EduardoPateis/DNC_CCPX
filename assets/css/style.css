@@ -1,0 +1,157 @@
+:root {
+    --fundoAmarelo: #FFD900;
+    --timerRoxo-: #514988;
+    --brancoTextos: white;
+    --textoRosa-: #E33881;
+    --textoAmarelo-: #F3C61F;
+
+}
+
+
+/* Geral */
+body {
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+
+/* Cabeçalho Amarelo */
+header {
+
+    background-color: var(--fundoAmarelo);
+    width: 100%;
+    height: 118px;
+}
+
+/* Definição do tamanho do Logo*/
+#logo {
+    margin-left: 40px;
+    margin-top: 20px;   
+    width: 300px;
+    height: 75px;
+}
+
+/* Lado A: Conteúdo Geral*/
+.cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+/* Configuração Geral  textos do conteúdo*/
+.contTextos {
+    background-color: var(--timerRoxo-);
+    text-align: center;
+    padding: 10px;
+    color: var(--brancoTextos);
+
+
+}
+/*Configuração do titulo do conteúdo */
+.contTitulo {
+
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    color: var(--textoAmarelo-);
+    /* Transformando em maisculas todas as letras*/
+    text-transform: uppercase;
+}
+
+/*Configuração do subtitulo do conteúdo  */
+.contSubTitulo {
+    /* Transformando em maisculas todas as letras*/
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+/*Configuração da frase do conteúdo  */
+.contFrase {
+    font-size: 25px;
+    padding-top: 75px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/*Lado B: Lado das animações */
+.contAnimacao {
+
+    text-align: center;
+    margin: 10px;
+
+}
+/*Contador regressivo*/
+.timer {
+    align-items: center;
+    display: inline-block;
+    padding-right: 15px;
+    color: var(--timerRoxo-);
+    font-size: 70px;
+
+}
+/*Texto do contador*/
+.timerText {
+    text-align: center;
+    color: var(--textoRosa-);
+    font-size: 30px;
+    
+}
+/* Video do contador*/
+.contVideo {
+    width: 100%;
+    margin-top: 10px;
+}
+/*Rodapé*/
+.rodape {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3fr 2fr;
+    padding: 5px;
+    align-items: center;
+
+}
+/*Geral rodapé*/
+.rodapeTexto {
+    margin-left: 10px;
+}
+/*Rodapé Titulo*/
+.rodapeTitulo {
+    font-size: 27px;
+    color: var(--textoAmarelo-);
+
+}
+/*Imagem*/
+.rodapeImg {
+    width: 204px;
+    height: 204px;
+}
+/*Botão*/
+.botao {
+    background-color: var(--timerRoxo-);
+    color: var(--brancoTextos);
+    font-size: 30px;
+    border-radius: 20px;
+    width: 586px;
+    height: 138px;
+    border-style: none;
+    margin-top: 60px;
+
+}
+/*Animação do mouse e mudança de cor*/
+.botao:hover {
+    color: var(--textoAmarelo-);
+    cursor: pointer;
+}
+/* Jaba ou propaganda*/
+#jaba{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    text-align: center;
+}
